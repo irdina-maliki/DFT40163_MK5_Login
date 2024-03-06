@@ -1,0 +1,142 @@
+.blue-text {
+    color: blue; /* Blue color */
+}
+
+.warning-box {
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #ffe6e6;
+    position: relative; /* for positioning the information symbol */
+    border-radius: 10px; /* for rounded corners */
+}
+
+.info-symbol {
+    position: absolute;
+    top: -15px; 
+    left: -15px; 
+    font-size: 20px;
+    background-color: darkred;
+    color: white;
+    border-radius: 50%; /* for a circular shape */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.steps {
+    display: flex;
+}
+
+.step {
+    width: 40px; /* Adjust size of circle */
+    height: 40px; /* Adjust size of circle */
+    border: 2px solid ghostwhite; /* Red border */
+    border-radius: 50%; /* Circle shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 10px; /* Adjust spacing between circles */
+}
+
+.information-box {
+    background-color: #eaf5ff; /* Light blue background */
+    color: #007bff; /* Blue text color */
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Center align content */
+}
+
+.info-symbol1 {
+    font-size: 20px;
+    margin-right: 10px; /* Add spacing between symbol and text */
+    background-color: lightblue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-symbol2 {
+    font-size: 20px;
+    margin-right: 10px; /* Add spacing between symbol and text */
+    background-color: lightblue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust as needed */
+}
+
+.text {
+    margin-left: 20px; /* Adjust spacing between text and button */
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+.success-box {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #dfe8ec; /* Grey box background color */
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    border: 1px solid #dbe6e8; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.success-box p {
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    color: #31708f; /* Text color */
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+.check-image,
+.cloudflare-image {
+    max-width: 40px; /* Adjust the maximum width of the image */
+    margin-left: 10px; /* Add spacing between text and image */
+}
+
+.cloudflare-image {
+    margin-left: auto; /* Pushes the Cloudflare image to the right */
+
+}

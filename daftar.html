@@ -1,43 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar</title>
+    <title>Website PADU</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
+
+<header>
+    <h1>PENDAFTARAN <span class="blue-text">AKAUN</span></h1>
+</header>
+
+<div class="container">
+    <div class="steps">
+        <div class="step">
+            <span class="step-number">1</span>
+        </div>
+        <div class="step">
+            <span class="step-number">2</span>
+        </div>
+        <div class="step">
+            <span class="step-number">3</span>
+        </div>
+    </div>
+</div><br>
+
 <body>
-    <header>
-        <h3>PENDAFTARAN AKAUN</h3>
-    </header>
-    <main>
-        <section>
-            <h3>Maklumat Asas</h3>
-            <h4>Masukkan maklumat di bawah:</h4>
-            <form action="#" method="POST">
-                <td><br>Nama, No.Kad Pengenalan dan Poskod mestilah SAMA seperti dalam Kad Pengenalan</td><br><br>
-                <label for="Nama Penuh">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
+    <div class="warning-box">
+        <div class="info-symbol">ℹ️</div>
+        <p><strong>Peringatan:</strong></p>
+        <p>
+            Akses kepada PADU, termasuk semua data yang terdapat dalam PADU adalah dilindungi di bawah <br>
+            undang-undang Malaysia. Mana mana perbuatan mengakses, memuat naik, memuat turun, meminda,
+            menambah atau menyebarkan apa-apa data dalam PADU tanpa kebenaran adalah suatu kesalahan
+            jenayah dan jika sabit kesalahan boleh dikenakan hukuman penjara, denda atau kedua-duanya sekali.
+        </p>
+    </div>
 
-                <label for="No. Kad Pengenalan">No.Kad Pengenalan:</label>
-                <input type="text" id="ic" name="ic">
+        <div class="registration-form">
+            <main>
+                <section>
+                    <h2>Maklumat Asas</h2>
+                    <h3>Masukkan maklumat di bawah:</h3>
+                    <form action="#" method="POST">
+                        <p>
+                            <div class="information-box">
+                                <div class="info-symbol1">ℹ️</div>
+                                <p>Nama, No. Kad Pengenalan, dan Poskod mestilah <strong>SAMA</strong> seperti dalam Kad Pengenalan.</p>
+                            </div>
 
-                <label for="Poskod">Poskod:</label>
-                <input type="text" id="poskod" name="poskod"><br>
+                            <input type="text" id="name" name="name" placeholder="Nama Penuh*">
+                        </p>
+                        <p>
+                            <input type="text" id="ic" name="ic" placeholder="No. Kad Pengenalan*">
+                            <input type="text" id="poskod" name="poskod" placeholder="Poskod*">
+                        </p>
+                        <p>
+                            <div class="information-box">
+                                <span class="info-symbol2">ℹ️</span>
+                                <p>No. Telefon Bimbit dan e-mel perlu <strong>SAH</strong> serta <strong>AKTIF</strong> untuk penerimaan OTP.</p>
+                            </div>
 
-                <td><br>No. Telefon Bimbit dan e-mel perlu SAH serta AKTIF untuk penerimaan OTP</td><br><br>
-                <label for="No.Telefon Bimbit">No.Telefon Bimbit:</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="E-mel">E-mel</label>
-                <input type="email" id="E-mel" name="E-mel"><br>
+                            <input type="tel" id="phone" name="phone" placeholder="No. Telefon Bimbit*">
+                            <input type="email" id="email" name="email" placeholder="E-mel">
+                        </p>
 
+                        <div class="success-box">
+                            <img src="image/check.jpg" alt="check image" class="check-image">
+                            <p>Success!</p>
+                            <img src="image/cloudflare.jpg" alt="cloudflare Image" class="cloudflare-image">
+                        </div>
 
-                <td><br>Dengan meneruskan,anda bersetuju dengan Terma dan syarat berkaitan
-                    <br>dasar privasi dan keselamatan kami</td><br>
-            </form>
-        </section>
-        <button type="submit">Seterusnya</button>
-    </main>
+                        <div class="container">
+                            <div class="button-wrapper">
+                                <p class="text">Dengan meneruskan, anda bersetuju dengan <a href="syarat.html" >Terma dan syarat </a>berkaitan dasar privasi dan keselamatan kami</p>
+                                <div class="button">
+                                    <button class="blue-button" type="submit">Seterusnya</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
 </body>
-</html>   
+
+</html> 
